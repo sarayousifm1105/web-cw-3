@@ -14,6 +14,9 @@
         width: 150px;
         height: 350px;
         background-color: black;
+margin-left: auto;
+margin-right: auto;
+
       }
 
       .circle {
@@ -22,10 +25,35 @@
         border-radius: 50px;
         border: 0.5px solid white;
       }
+      
+        
+      
+      .red:hover{
 
-      /* 👇 اكتب الكود هنا */
+        background-color: orangered;
+        transition: all 0.5s ease-in-out;
+      }
+      .green:hover{
+
+        background-color: green;
+        transition: all 0.5s ease-in-out;
+      }
+      .yellow:hover{
+
+        background-color: rgb(224, 228, 25);
+        transition: all 0.5s ease-in-out;
+      }
+      /* 👇 اكتب الكو
+      د هنا */
+p{
+  color:#fca311;
+  size: 30px;
+  text-align: center;
+}
 
       img {
+        width:250px
+
         /* عدل على عرض الصورة */
       }
     </style>
@@ -42,7 +70,9 @@
     <!--             اجعل عرض الصورة ٢٥٠ بكسل-          -->
     <!--     فوق CSS في img تلميح: ستغير خصائص عنصر     -->
     <!----------------====================---------------->
-    <img src="./car.png" alt="" />
+    
+    <img src="img\car.png" alt=""/>
+
 
     <!-------------------المطلوب الثالث------------------->
     <!--  غير لون خلفية الدوائر حتى يصبح شكل اشارة مرور -->
@@ -50,9 +80,9 @@
     <!-- style تلميح: ستغير خصائص الكلاسات اللي فوق داخل -->
     <!----------------====================---------------->
     <div class="square">
-      <div class="circle 1"></div>
-      <div class="circle 2"></div>
-      <div class="circle 3"></div>
+      <div class="circle red"></div>
+      <div class="circle green"></div>
+      <div class="circle yellow"></div>
     </div>
 
     <!----------------====================---------------->
